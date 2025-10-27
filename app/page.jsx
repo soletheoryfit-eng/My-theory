@@ -1,10 +1,8 @@
-// app/page.jsx
 export default function Home() {
-  // 👇 change these anytime
   const product = {
     name: "AeroFlex Runner Black",
     priceRON: 349,
-    image: "/images/i1756310110030_8045_0_8.jpg", // change if your filename is different
+    image: "/images/i1756310110030_8045_0_8.jpg", // ✅ your real image file
     desc: "Authentic-quality runner. Shipped from verified suppliers in the U.S. & China."
   };
 
@@ -44,14 +42,4 @@ export default function Home() {
               <div style={{fontWeight:700}}>{product.name}</div>
               <div style={{fontSize:14,color:"#666"}}>{product.desc}</div>
               <div style={{marginTop:6,fontWeight:800}}>{ron(product.priceRON)}</div>
-              <a href={waLink(product.name, product.priceRON)}
-                 style={{display:"inline-block",marginTop:8,padding:"8px 12px",borderRadius:12,background:"#000",color:"#fff",fontSize:14}}>
-                Order on WhatsApp
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-}
+              
