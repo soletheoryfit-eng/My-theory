@@ -1,10 +1,10 @@
 // app/page.jsx
 export default function Home() {
-  // 👉 Edit these 3 values anytime from your phone
+  // 👇 change these anytime
   const product = {
     name: "AeroFlex Runner Black",
     priceRON: 349,
-    image: "/images/aeroflex-black.jpg", // change to your uploaded filename if different
+    image: "/images/aeroflex-black.jpg", // change if your filename is different
     desc: "Authentic-quality runner. Shipped from verified suppliers in the U.S. & China."
   };
 
