@@ -4,7 +4,7 @@ export default function Home() {
   const product = {
     name: "AeroFlex Runner Black",
     priceRON: 349,
-    image: "/images/aeroflex-black.jpg", // change if your filename is different
+    image: "/images/i1756310110030_8045_0_8.jpg", // change if your filename is different
     desc: "Authentic-quality runner. Shipped from verified suppliers in the U.S. & China."
   };
 
